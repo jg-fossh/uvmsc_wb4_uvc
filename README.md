@@ -1,22 +1,9 @@
-/home/jota/HDL_Sandbox/jg_fossh/jVIP/wb4_uvmc/
+# UVM-SystemC Wishbone B4 (pipelined) Verification Component
 
-wrtinccd
+This this UVM-SystemC(UVMSC) verification component has been proven to work with the GNU C++ compiler and verilator. For a example project using this component refer to [wb4_fifo_lib](https://github.com/jg-fossh/wb4_fifo_lib)
 
-## C++ Sources
-
-- [ ] agent.cpp
-- [x] seq.cpp
-- [ ] sqr.cpp
-- [ ] drv.cpp
-- [ ] mon.cpp
-- [ ]  .cpp
-
-## Includes
-
-- [x] agent.h
-- [x] seq.h
-- [ ] sqr.h
-- [ ] drv.h
-- [ ] mon.h
-- [ ] vif.h
-- [x] config.h
+## ToDo
+  - [ ] Documentation
+  - [x] Implement the master driver
+  - [ ] Implement the slave
+  - [ ] Implement functional coverage
