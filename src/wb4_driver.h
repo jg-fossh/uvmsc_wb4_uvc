@@ -47,7 +47,7 @@ public:
     bool          is_async;
     wb4_role_e    role;
     //
-    wb4_bfm*     vif;
+    wb4_bfm*      vif;
 
 
     UVM_COMPONENT_UTILS(wb4_driver);
@@ -58,7 +58,7 @@ public:
         // Constructor implementation, if needed
     }
 
-    virtual void main_phase(uvm::uvm_phase& phase){
+    virtual void run_phase(uvm::uvm_phase& phase){
         wb4_seq_item tr;
         while (true) {
             //
